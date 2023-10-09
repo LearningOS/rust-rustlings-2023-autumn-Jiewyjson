@@ -7,13 +7,7 @@
 // Execute `rustlings hint tests8` or use the `hint` watch subcommand for a
 // hint.
 
-
-fn main() {
-<<<<<<< HEAD
-
-=======
->>>>>>> 443c04f594c9e981791c7437c73d2d55be4d80a5
-}
+fn main() {}
 
 #[cfg(test)]
 mod tests {
