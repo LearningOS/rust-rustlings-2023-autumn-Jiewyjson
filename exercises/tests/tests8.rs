@@ -9,8 +9,6 @@
 
 
 fn main() {
-    // 这行代码告诉Cargo启用名为`pass`的特性。
-    println!("cargo:rustc-cfg=feature=\"pass\"");
 }
 
 #[cfg(test)]
