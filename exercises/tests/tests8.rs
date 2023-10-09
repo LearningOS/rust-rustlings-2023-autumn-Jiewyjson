@@ -7,9 +7,11 @@
 // Execute `rustlings hint tests8` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
-fn main() {}
+fn main() {
+    // 这行代码告诉Cargo启用名为`pass`的特性。
+    println!("cargo:rustc-cfg=feature=\"pass\"");
+}
 
 #[cfg(test)]
 mod tests {
